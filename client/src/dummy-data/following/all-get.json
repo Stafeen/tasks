@@ -1,0 +1,12 @@
+[
+    {
+        "_id": "5d3c4db19eeafb5e891faa46",
+        "follower_id": "5d348f4ea0e79225c07b5af1",
+        "followed_id": "5d35fa3838bb8010845e77a6"
+    },
+    {
+        "_id": "5d40980d0d225f1a5ccc6cff",
+        "follower_id": "5d3435756d1bfd76a13b87a0",
+        "followed_id": "5d34435dbe005e4248231dba"
+    }
+]

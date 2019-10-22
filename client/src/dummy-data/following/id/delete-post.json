@@ -1,0 +1,18 @@
+{
+    "n": 1,
+    "opTime": {
+        "ts": "6719539015344717825",
+        "t": 2
+    },
+    "electionId": "7fffffff0000000000000002",
+    "ok": 1,
+    "operationTime": "6719539015344717825",
+    "$clusterTime": {
+        "clusterTime": "6719539015344717825",
+        "signature": {
+            "hash": "iJrw24z1+bULRBn7ktL62frWtFY=",
+            "keyId": "6711469050968408065"
+        }
+    },
+    "deletedCount": 1
+}

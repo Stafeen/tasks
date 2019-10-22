@@ -1,0 +1,14 @@
+[
+    {
+        "first_name": "Pra",
+        "last_name": "Sharma",
+        "email": "prasamsha@yah.com",
+        "username": "liefde",
+        "password": "ijklp",
+        "isDeleted": false,
+        "_id": "5d456231f0905d38f0e4d7b0",
+        "location": "losAngeles2",
+        "join_date": "2019-08-03T10:30:09.972Z",
+        "__v": 0
+    }
+]

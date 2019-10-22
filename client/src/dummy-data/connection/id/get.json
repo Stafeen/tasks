@@ -1,0 +1,14 @@
+[
+    {
+        "isDeleted": false,
+        "_id": "5d343e5d7c7fe2011964ef42",
+        "user1_id": "5d3435756d1bfd76a13b87a0",
+        "user2_id": "5d34366cfb7ba57bdd4baaec",
+        "accept1": true,
+        "accept2": true,
+        "story": "he stole my wallet",
+        "date": "2019-07-21T10:28:45.438Z",
+        "__v": 0
+        
+    }
+]
