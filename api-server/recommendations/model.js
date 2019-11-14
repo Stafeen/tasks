@@ -28,6 +28,12 @@ const recommendation_schema = mongoose.Schema(
       required: true,
       unique: true,
       default: Date.now
+    },
+    updateDate: {
+      type: Date,
+      required: false,
+      unique: true,
+      default: Date.now
     }
   }
 );

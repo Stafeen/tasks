@@ -53,7 +53,7 @@ controller.post_add = (req, res) => {
   };
   
  
-  recommendations.create(new_user)
+  recommendations.create(new_recommendation)
     // modify the next line based on your project's needs
     .then((db_response) => {
       res.send(db_response)
@@ -107,26 +107,14 @@ controller.post_id_update = (req, res) => {
   const id_object = {
     _id: profile_id
   };
-  const firstName = req.body.firstName;
-  const username = req.body.username;
-  const password = req.body.password;
-  const email = req.body.email;
-  const lastName = req.body.lastName;
-  const active = req.body.active;
-  const photo = req.body.photo;
-  const location = req.body.location;
+  const recommendationText = req.body.recommendationText;
+  const updateDate = Date.now()
 
-  const name_object = {
-    firstName: firstName,
-    lastName: lastName,
-    username: username,
-    email: email,
-    password: password,
-    active: active,
-    photo: photo,
-    location: location
+  const recommendations_object = {
+    recommendationText,
+    updateDate
   };
-  profiles.update(id_object, name_object)
+  profiles.update(id_object, recommendations_object)
     // modify the next line based on your project's needs
     .then((db_response) => {
       res.send(db_response)

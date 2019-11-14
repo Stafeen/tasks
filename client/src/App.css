@@ -10,3 +10,19 @@ body{
   margin: auto;
 }
 
+.profile-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 200px;
+  overflow: hidden;
+  margin: 10px;
+  
+}
+
+.allProfiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+

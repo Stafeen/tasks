@@ -1,0 +1,9 @@
+demo-api-server/config.js
+demo-api-server/node_modules
+
+# don't forget to ignore your client node modules!
+node_modules/
+
+
+# misc
+.DS_Store
